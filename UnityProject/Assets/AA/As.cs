@@ -10,6 +10,12 @@ public class As : MonoBehaviour
     public string k = "111";
     public bool a = true;
 
-
-  
+    private void Start()
+    {
+        print("哈哈");
     }
+    private void Update()
+    {
+        print("咕咕");
+    }
+}
